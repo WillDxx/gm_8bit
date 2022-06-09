@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-linux:
-    runs-on: ubuntu-16.04
+    runs-on: jessie
     steps:
     - uses: actions/checkout@v2
     - uses: actions/checkout@v2
